@@ -1,0 +1,30 @@
+
+
+#include <stdio.h>
+#include <stdio.h>
+
+
+int main()
+
+{
+   
+int a[6]={1,2,3,4,5,7,8},i,n;
+   
+int l=sizeof(a)/sizeof(int);
+   
+for(i=0;i<l;i++)
+   
+{
+     
+if(a[i]-a[i-1]!=1)
+     
+n=a[i]-1;
+   
+ }
+     
+printf("missing num=%d",n);
+   
+return 0;
+
+}
+

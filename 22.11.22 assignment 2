@@ -1,0 +1,7 @@
+p=int(input('enter amount:'))
+t=int(input('enter time'))
+r=float(input('enter rate'))
+months=input('enter months')
+si=(p*t*r)/100
+EMI=(p+si)/months
+print(EMI)

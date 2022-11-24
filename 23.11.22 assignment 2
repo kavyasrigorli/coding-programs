@@ -1,0 +1,6 @@
+a=6
+b=15
+if a==b:
+  print('both equal')
+else:
+  pint('not equal')

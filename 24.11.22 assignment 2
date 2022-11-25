@@ -1,0 +1,8 @@
+a=30
+b=20
+pint(a>b)
+pint(a<b)
+pint(a>=b)
+pint(a<=b)
+pint(a!=b)
+pint(a==b)

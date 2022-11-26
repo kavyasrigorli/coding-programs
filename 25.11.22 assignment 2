@@ -1,0 +1,6 @@
+d=[4,8,3,2,9,1]
+min=d[0]
+for i in d:
+    if i<min:
+        min=i
+print("min value",min)

@@ -1,0 +1,6 @@
+s=[4,7,4,5,8]
+g=int(input("enter any number"))
+if g in s:
+    print("available")
+else:
+        print("not available")
